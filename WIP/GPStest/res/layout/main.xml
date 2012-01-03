@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<Button
+    android:id="@+id/button_start"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="位置情報取得"
+    />
+    <com.google.android.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="320dip"
+        android:apiKey="0mmw-8Z34yc7xTNkiFDxYbGjDXdUPvhzlb4JkTQ" >
+    </com.google.android.maps.MapView>
+
+    <TextView
+    android:id="@+id/text_location_title"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    />
+    <TextView
+    android:id="@+id/text_location_snippet"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    />
+
+</LinearLayout>
